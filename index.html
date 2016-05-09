@@ -1,0 +1,337 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="keywords" content="Ключеные слова">
+<meta name="description" content="Описание">
+<title> Мой сайт HTML5</title>
+<link href="css/style.css" rel="Stylesheet">
+<link href="css/fonts.css" rel="Stylesheet">
+<link href="css/media.css" rel="Stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="modal fade" id="modal-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Мы вам перезвоним!</h4>
+            </div>
+            <div class="modal-body">
+            	<form id="form_modal">
+                    <h2>Укажите: Имя.</h2>
+                    <input type="text" name="name" required>
+                    <h2>Укажите: Номер телефона.</h2>
+                    <input type="text" name="tel" required>
+                    <br>
+                	<input type="submit" name="submit" value="Отправить">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="button" data-dismiss="modal">Отмена</button>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="top_line">
+					<img id="star" class="img-responsive" src="images/Header_star.png" alt="Москва">
+					<img id="moskow" class="img-responsive" src="images/moskov.png" alt="">
+					<i id="open_menu" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+					<i id="close_menu" class="fa fa-times fa-2x" aria-hidden="true"></i>
+					<div id="top_line_menu">
+    					<div id="top_menu">
+    						<ul>
+    							<li><a href="#">Отзывы</a></li>
+    							<li><a href="#">Преимущества</a></li>
+    							<li><a href="#">Виды экскурсий</a></li>
+    						</ul>
+    						<h6>Телефон:937-99-92</h6>
+    						<div id="info">
+    							<a href="#">
+    								<i class="fa fa-vk fa-3x" aria-hidden="true"></i>
+    							</a>
+    							<a href="#">
+    								<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+    							</a>
+    							<a href="#">
+    								<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+    							</a>
+    						</div>
+    					</div>
+    				</div>
+    				<div id="button" class="hidden-xs">
+        				<button type="button" data-toggle="modal" data-target="#modal-1">
+        					Заказать звонок
+        				</button>
+    				</div>
+					<form method="post" class="search hidden-xs">
+						<input type="search" name="search" placeholder="Найти экскурсию" class="input" />
+						<input type="submit" name="button" value="" class="submit" />
+					</form>
+				</div>
+				<div id="header_content">
+					<h1>Экскурсии по старой и новой Москве!</h1>
+					<h5>Лучщие экскурсоводы и гиды, пешеходные экскурсии,экскурсии на автобусах в сопровождении лучших гидов!</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="description_mob"></section>
+<section id="description">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="description_content">
+					<i class="fa fa-cloud-download fa-3x hidden-xs" aria-hidden="true"></i>
+					<i class="fa fa-cloud-download fa-2x hidden-lg hidden-md hidden-sm" aria-hidden="true"></i>
+					<h2>Лучшие гиды и программы</h2>
+					<h4>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+					</h4>
+					<h5>
+						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+					</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="comments_mob_video" class="hidden-lg hidden-md hidden-sm">
+	<iframe src="https://www.youtube.com/embed/xeKaN1q81ks" allowfullscreen></iframe>
+</section>
+<section id="comments_1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="comments_1_video" class="hidden-xs">
+					<iframe src="https://www.youtube.com/embed/xeKaN1q81ks" allowfullscreen></iframe>
+				</div>
+				<div id="comments_1_content">
+					<h5>12th june 2015</h5>
+					<h2>Lorem ipsum dolor sit amet, cotur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore</h2>
+					<img src="images/comment_user1.png" alt="">
+					<h6>Константин Константинопольский</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="comments_2_mob"></section>
+<section id="comments_2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="comments_2_content">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+					<h4>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="comments_3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="comments_3_content">
+					<h2>Ut enim ad minim veniam,quis notrud exercitation ullamco laboris. Nisi ut aliquip ex ea commodo.</h2>
+					<img src="images/comment_user1.png" alt="">
+					<h6>Константин Константинопольский</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="comments_3_background"></section>
+<section id="presentation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="presentation_content">
+					<h2>Почему наши экскурсии лучшие в Москве</h2>
+					<h5>
+						Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 3 wolf moon Thundercats Banksy paleo, yr four loko Shoreditch dreamcatcher. 
+					</h5>
+					<div id="download" class="hidden-xs">
+						<h4>Скачать презентацию</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="skip" class="hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="skip_content" >
+					<div id="download_button">
+						Скачать
+					</div>
+					<img class="img-responsive" src="images/download.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="advantage">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="advantage_content">
+					<ul>
+						<li><img src="images/advantage_1.png" alt="">
+							<h4>Преимущество</h4>
+							<h6>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							</h6>
+						</li>
+						<li><img src="images/advantage_2.png" alt="">
+							<h4>Преимущество</h4>
+							<h6>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							</h6>
+						</li>
+						<li><img src="images/advantage_3.png" alt="">
+							<h4>Преимущество</h4>
+							<h6>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							</h6>
+						</li>
+						<li><img src="images/advantage_4.png" alt="">
+							<h4>Преимущество</h4>
+							<h6>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+							</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="trade">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="trade_content">
+					<h2>Заказать экскурсию и отправить заявку</h2>
+					<h5>Оставьте заявку и наш оператор вам перезвонит и уточнит всю информацию и подберет для вас план экскурссии!</h5>
+					<div id="button_trade">
+        				<button type="button" data-toggle="modal" data-target="#modal-1">
+        					Заказать
+        				</button>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="excursions">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="excursions_content">
+					<ul>
+						<li>
+							<h2>Пешая экскурсия</h2>
+							<h4>Пешеходная экскурсия с гидом</h4>
+							<h5>
+								Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 
+							</h5>
+							<div class="button_trade">
+        						<button type="button" data-toggle="modal" data-target="#modal-1">
+        						Заказать
+        						</button>
+    						</div>
+						</li>
+						<li>
+							<h2>Автобусная экскурсия</h2>
+							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h4>
+							<h5>
+								Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 
+							</h5>
+							<div class="button_trade">
+        						<button type="button" data-toggle="modal" data-target="#modal-1">
+        							Заказать
+        						</button>
+    						</div>
+						</li>
+						<li>
+							<h2>V.I.P экскурсия</h2>
+							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h4>
+							<h5>
+								Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 
+							</h5>
+							<div class="button_trade">
+        						<button type="button" data-toggle="modal" data-target="#modal-1">
+        							Заказать
+        						</button>
+        					</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="footer_form">
+						<h5>e-mail рассылка</h5>
+						<form method="post">
+							<input type="text" name="email" required>
+							<input type="submit" value="" name="button">
+						</form>
+						<h5>Мы делаем это не для спама, а для того чтобы уведомлять вас о наших новинках и акциях.</h5>
+					</div>
+				<div id="footer_content">
+					<h5>Закажите экскурсию</h5>
+					<h6>
+						orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					</h6>
+					<ul>
+						<li>
+							<h5>Страница</h5>
+							<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </h6>
+						</li>
+						<li>
+							<h5>Страница</h5>
+							<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </h6>
+						</li>
+						<li>
+							<h5>Страница</h5>
+							<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript" src="js/jquery-2.2.1.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
