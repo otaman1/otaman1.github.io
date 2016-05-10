@@ -21,3 +21,12 @@ $("doument").ready(function(){
 function open_presentation (event){
 	   $("#skip_content").slideToggle(1000);
 }
+$(document).ready(function(){
+    $('a[href^="#description"],a[href^="#presentation"],a[href^="#trade"],a[href^="."]').click( function(){ // если в href начинается с # или ., то ловим клик
+	    var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+	    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 1000); // анимируем скроолинг к элементу scroll_el
+        }
+	    return false; // выключаем стандартное действие
+    });
+});
